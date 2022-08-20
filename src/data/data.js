@@ -1,8 +1,10 @@
 export const data = {
   "totalInfluencers": {
     "vaporfresh": {
+      "username":"vaporfresh",
       "followers": 721,
       "comment_count": 3,
+      "likes":345,
       "comments": [
         {
           "date": "2018-06-01T00:00:00",
@@ -18,12 +20,14 @@ export const data = {
         }
       ],
       "sentimentPolarity": {
-        "0": 0.945456
+        "0": -0.23434
       }
     },
     "zumbanoboxing": {
-      "followers": 721,
+      "username":"zumbanoboxing",
+      "followers": 234,
       "comment_count": 1,
+      "likes":293,
       "comments": [
         {
           "date": "2018-06-01T00:00:00",
@@ -31,12 +35,14 @@ export const data = {
         },
       ],
       "sentimentPolarity": {
-        "0": 0.734654
+        "0": 0.434654
       }
     },
     "insta.promo1603": {
-      "followers": 721,
+        "username":"insta.promo1603",
+      "followers": 529,
       "comment_count": 2,
+      "likes":681,
       "comments": [
         {
           "date": "2018-06-01T00:00:00",
@@ -52,8 +58,10 @@ export const data = {
       }
     },
     "iamjustinejustine": {
-      "followers": 721,
+      "username":"iamjustinejustine",
+      "followers": 812,
       "comment_count": 1,
+      "likes":192,
       "comments": [
         {
           "date": "2018-06-01T00:00:00",
