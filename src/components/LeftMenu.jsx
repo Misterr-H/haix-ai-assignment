@@ -9,7 +9,7 @@ const LeftMenu = ({data, callback, currentSortingMethod}) => {
                 setResultList(Object.values(data))
                 break;
             case 1:
-                setResultList(Object.values(data).sort((a, b) => a.username - b.username))
+                setResultList(Object.values(data).sort((a, b) => a.username.localeCompare(b.username)))
                 break;
             case 2:
                 setResultList(Object.values(data).sort((a,b) => a.comment_count - b.comment_count))
